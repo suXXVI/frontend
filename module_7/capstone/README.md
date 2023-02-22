@@ -50,6 +50,6 @@ https://accounts.spotify.com/authorize?client_id=6966c080a0dd4ff190b5c2ef2e13a96
 
   - Here's a snapshot of requests that I created in Insomnia to test the WeatherAPI. You must create at least 3 requests.
 
-  ![Insomnia Workspace](./capstone-insomnia-snapshot.png)
+  ![Insomnia Workspace](https://media1-production-mightynetworks.imgix.net/asset/54247302/capstone-insomnia-snapshot.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max&impolicy=ResizeCrop&constraint=downsize&aspect=fit)
 
 - Use environment variables to store your API key and other settings. Test each request to ensure that the API returns the expected response.
