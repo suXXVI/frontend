@@ -12,3 +12,5 @@
 
 Design inspiration src - https://www.hostinger.in/tutorials/web-developer-portfolio
 
+link to page - https://suxxvi.github.io/capstone-portfolio-website/
+
