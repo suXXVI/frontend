@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-stone-950 text-white">
+    <div class="main-container p-10 h-screen  overflow-hidden">
+        <div class="text-container border-2 border-white flex justify-between relative z-10 h-full overflow-hidden">
+            <!-- title and nav -->
+            <div class="z-10 p-5 h-80">
+                <div>
+                    <h1 class="user-name gallero-vintage text-8xl mb-1 select-none">suXXVI</h1>
+                    <h3 class="sub-title text-xl mb-10 select-none">Front-End Web Developer</h3>
+                </div>
+                <div class="flex flex-col gap-4">
+                    <a class="home-button text-sm sm:text-lg md:text-xl" href="./index.html">I. <span class="home-tab">Home</span>
+                    </a>
+                    <a class="projects-button text-sm sm:text-lg md:text-xl" href="./Pages/projects.html">II. <span class="projects-tab">Projects</span></a>
+                    <a class="tech-button text-sm sm:text-lg md:text-xl" href="./Pages/technologies.html">III. <span class="tech-tab">Technologies</span></a>
+                    <a class="contact-button text-sm sm:text-lg md:text-xl" href="./Pages/contact.html">IV. <span class="contact-tab">Contact</span></a>
+                </div>
+            </div>
+            <!-- current tab name -->
+            <div class="absolute right-0 p-5 top-5 z-10 w-44">
+                <h1 class="flex justify-end items-center gap-1 text-xl text-right lg:mb-40 border-b-2 border-white select-none">Home
+                </h1>
+            </div>
+            <!-- info box -->
+            <div class="left-container bio-container w-75 p-5 absolute bottom-0 right-0 z-10">
+                <p class="text-sm text-right w-56 sm:w-96 sm:text-lg md:text-xl select-none">
+                    I am a junior front-end web developer who has just started my career in the industry. My journey began as a music major, but I made the decision to switch gears and pursue web development due to my deep interest in technology. Drawing from my background in music, I bring a creative and detail-oriented approach to my work, always striving to craft visually appealing and user-friendly websites. I have a strong passion for learning and constantly seek out opportunities to expand my knowledge in JavaScript, HTML, CSS, and frameworks such as ReactJS. I am enthusiastic about combining my love for creativity and problem-solving to build exceptional digital experiences. Embarking on this new path, I am excited to contribute my unique perspective to the world of web development.
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

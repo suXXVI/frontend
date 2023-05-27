@@ -1,0 +1,78 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+
+@font-face {
+    font-family: "GalleroVintage";
+    src: url("./fonts/GalleroVintage.otf");
+}
+
+@font-face {
+    font-family: 'MetroPhotograph';
+    src: url(./fonts/MetroPhotograph.otf);
+}
+
+.gallero-vintage {
+    font-family: 'GalleroVintage'
+}
+
+.metroPhotograph {
+    font-family: 'MetroPhotograph';
+}
+
+.text-container {
+    background-image: url(./assets/adrianna-geo-1rBg5YSi00c-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.bio-container {
+    transform: translateX(110%);
+    animation: from-left 0.8s forwards, fade-in 1.5s forwards;
+}
+
+
+.item1 {
+    /* transform: translateX(110%); */
+    animation: from-left 0.8s forwards, fade-in 1.5s forwards;
+}
+
+.item2 {
+    /* transform: translateX(110%); */
+    animation: from-left 1s forwards, fade-in 1.5s forwards;
+}
+
+.item3 {
+    /* transform: translateX(110%); */
+    animation: from-left 1.2s forwards, fade-in 1.5s forwards;
+}
+
+.item4 {
+    /* transform: translateX(110%); */
+    animation: from-left 1.4s forwards, fade-in 1.5s forwards;
+}
+
+.item5 {
+    /* transform: translateX(110%); */
+    animation: from-left 1.6s forwards, fade-in 1.5s forwards;
+}
+
+@keyframes from-left {
+    from {
+        transform: translateX(110%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
